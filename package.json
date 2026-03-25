@@ -1,0 +1,16 @@
+{
+  "name": "projmanagement",
+  "version": "1.0.0",
+  "description": "learning backend in depth",
+  "keywords": [
+    "backend",
+    "API"
+  ],
+  "license": "ISC",
+  "author": "Shriyans Sahoo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
