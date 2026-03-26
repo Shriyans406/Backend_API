@@ -10,7 +10,7 @@ app.use(express.static("public"));
 // cors config
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN.split(",") || "*",
+    origin: process.env.CORS_ORIGIN?.split(",") || "*",
     credentials: true,
     methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
