@@ -355,4 +355,5 @@ export {
   refreshAccessToken,
   forgotPasswordRequest,
   resetForgotPassword,
+  changeCurrentPassword,
 };
